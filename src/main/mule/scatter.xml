@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="58e4bb55-0927-4832-90e7-2b79d08f66a8" >
-		<http:listener-connection host="localhost" port="8081" />
+		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="scatterFlow" doc:id="9a89b8e4-cf61-4835-8746-df99714cb183" >
 		<http:listener doc:name="Listener" doc:id="59e47d4e-3a72-4594-888a-f10868836dd5" config-ref="HTTP_Listener_config" path="/Scatter"/>
