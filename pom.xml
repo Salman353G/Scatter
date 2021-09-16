@@ -39,7 +39,7 @@
 					    <!-- Environment Parameter -->
 					    <environment>Sandbox</environment>
 					    <applicationName>scatter</applicationName>
-					    <businessGroup>Mulesoft</businessGroup>
+					    <businessGroup>micro</businessGroup>
 					    <workerType>1</workerType>
 					    <objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
