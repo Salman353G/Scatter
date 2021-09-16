@@ -38,7 +38,7 @@
 					    <password>Kushi@353</password>
 					    <!-- Environment Parameter -->
 					    <environment>Sandbox</environment>
-					    <applicationName>Scatter</applicationName>
+					    <applicationName>scatter</applicationName>
 					    <businessGroup>Mulesoft</businessGroup>
 					    <workerType>1</workerType>
 					    <objectStoreV2>true</objectStoreV2>
